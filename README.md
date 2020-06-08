@@ -1,4 +1,8 @@
-# Aufgabe_MALIS_19.3_WPM_T9.2_2020
+# Aufgabe 1: Python     
+
+# Aufgabe 2: Shell:     
+
+Aufgabenstellung 2 bestand daraus, aus einer bereitgestellten sogenannten "dirty" .tsv-Datei eine bereinigte neue .tsv-Datei zu erstellen. Ziel dieser neuen Datei sollte eine tabellarische Ordnung in die Spalten ISSNs und Veröffentlichungsjahren darstellen. Als Ergebnis zählt ein selbst erstelltes Shell-Script.
 
 meike@DESKTOP-FCP35GO MINGW64 ~                                                                                         
 $ cd desktop    
@@ -144,4 +148,17 @@ ISSN    Date
 1361-2343       1994     
 1361-9462       1994     
      
-     
+## Script:     
+$ cat Ergebnis_Script.sh     
+#!/bin/bash     
+#Bereinigung der Dirty-Datei     
+cat 2020-05-23-Article_list_dirty.tsv | cut -f 5,12 > Zwischenergebnis1.tsv                                                  
+cat Zwischenergebnis1.tsv | grep -v eng > Zwischenergebnis2.tsv                                                             
+sed 's/ISSN:/ /g;s/Issn:/ /g;s/issn:/ /g' Zwischenergebnis2.tsv > Zwischenergebnis3.tsv                                      
+sed 's/^[ \t]*//' Zwischenergebnis3.tsv > Zwischenergebnis4.tsv     
+sort -u Zwischenergebnis4.tsv > Zwischenergebnis5.tsv                                                                        
+sort -n Zwischenergebnis5.tsv > 2020-05-23-Article_list_dirty.tsv                                                            
+mv 2020-05-23-Article_list_dirty.tsv 2020-05-23-DATES_and_ISSNs.tsv     
+rm Zwischenergebnis1.tsv Zwischenergebnis2.tsv Zwischenergebnis3.tsv Zwischenergebnis4.tsv Zwischenergebnis5.tsv
+cat 2020-05-23-DATES_and_ISSNs.tsv      
+
