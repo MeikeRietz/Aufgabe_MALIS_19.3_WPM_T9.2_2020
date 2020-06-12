@@ -9,8 +9,6 @@ In diesem Repositorium sind die Bearbeitungen der Aufgabe T9.2_2020 des Wahlpfli
        2.2 [Vollständiger Weg mit Git Bash](#Git)      
        2.3 [Script](#Script)           
 **3.** [Quellen](#Quellen)         
-
-
-## Aufgabe 1: Python <a name="Python" /></a>     
+   
 
 
