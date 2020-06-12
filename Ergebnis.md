@@ -12,7 +12,10 @@ In diesem Repositorium sind die Bearbeitungen der Aufgabe T9.2_2020 des Wahlpfli
 
 ## Aufgabe 1: Python <a name="Python" /></a>
 
-Die Bearbeitung des Datensets "Checkouts" ist hier zu finden: https://github.com/MeikeRietz/Aufgabe_MALIS_19.3_WPM_T9.2_2020/blob/master/Jupyter%20Notebook%20zu%20Checkouts.ipynb     
+Die Bearbeitung des Datensets "Checkouts" ist hier zu finden: https://github.com/MeikeRietz/Aufgabe_MALIS_19.3_WPM_T9.2_2020/blob/master/Jupyter%20Notebook%20zu%20Checkouts.ipynb  
+
+Die Bearbeitung des Datensets "Inventory" ist hier zu finden:
+https://github.com/MeikeRietz/Aufgabe_MALIS_19.3_WPM_T9.2_2020/blob/master/Jupyter%20Notebook%20zu%20Inventory.ipynb     
 
 ## Aufgabe 2: Shell <a name="Shell" /></a>       
 
