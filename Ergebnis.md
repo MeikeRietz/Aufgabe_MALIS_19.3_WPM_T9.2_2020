@@ -8,7 +8,11 @@ In diesem Repositorium sind die Bearbeitungen der Aufgabe T9.2_2020 des Wahlpfli
        2.1 [Aufgabenstellung](#Aufgabenstellung)          
        2.2 [Vollständiger Weg mit Git Bash](#Git)      
        2.3 [Script](#Script)           
-**3.** [Quellen](#Quellen)         
+**3.** [Quellen](#Quellen)    
+
+## Aufgabe 1: Python <a name="Python" /></a>
+
+Die Bearbeitung des Datensets "Checkouts" ist hier zu finden: https://github.com/MeikeRietz/Aufgabe_MALIS_19.3_WPM_T9.2_2020/blob/master/Jupyter%20Notebook%20zu%20Checkouts.ipynb     
 
 ## Aufgabe 2: Shell <a name="Shell" /></a>       
 
