@@ -207,10 +207,23 @@ rm Zwischenergebnis1.tsv Zwischenergebnis2.tsv Zwischenergebnis3.tsv Zwischenerg
 cat 2020-05-23-DATES_and_ISSNs.tsv      
 
 ## Quellen: <a name="Quellen" /></a>
-Deutsche Nationalbibliothek, _Metadienste_     URL:https://www.dnb.de/DE/Professionell/Metadatendienste/Metadaten/Nationalbibliografie/nationalbibliografie_node.html, abgerufen am 06.05.2020  
+Deutsche Nationalbibliothek, _Metadienste_     URL:https://www.dnb.de/DE/Professionell/Metadatendienste/Metadaten/Nationalbibliografie/nationalbibliografie_node.html, abgerufen am 26.06.2020  
 
-https://wiki.ubuntuusers.de/cut/     
-https://wiki.ubuntuusers.de/sed/     
-https://wiki.ubuntuusers.de/grep/     
-https://wiki.ubuntuusers.de/sort/
+Galli, Keith (YouTube), _Python Plotting Tutorial w/ Matplotlib & Pandas (Line Graph, Histogram, Pie Chart, Box & Whiskers)_
+URL: https://www.youtube.com/watch?v=0P7QnIQDBJY, abgerufen am 26.06.2020     
+
+Galli, Keith (YouTube), _Intro to Data Visualization in Python with Matplotlib! (line graph, bar chart, title, labels, size)_     
+URL:https://www.youtube.com/watch?v=DAQNHzOcO5A, abgerufen am 26.06.2020     
+
+Ubunutuusers, _cut_     
+URL:https://wiki.ubuntuusers.de/cut/, abgerufen am 26.06.2020     
+     
+Ubunutuusers, _sed_     
+URL:https://wiki.ubuntuusers.de/sed/, abgerufen am 26.06.2020  
+
+Ubunutuusers, _grep_     
+URL:https://wiki.ubuntuusers.de/grep/, abgerufen am 26.06.2020  
+
+Ubunutuusers, _sort_     
+URL:https://wiki.ubuntuusers.de/sort/, abgerufen am 26.06.2020  
 
